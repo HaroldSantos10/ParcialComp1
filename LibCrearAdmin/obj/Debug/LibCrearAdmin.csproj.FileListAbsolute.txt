@@ -1,0 +1,6 @@
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\bin\Debug\LibCrearAdmin.dll
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\bin\Debug\LibCrearAdmin.pdb
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\obj\Debug\LibCrearAdmin.csproj.AssemblyReference.cache
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\obj\Debug\LibCrearAdmin.csproj.CoreCompileInputs.cache
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\obj\Debug\LibCrearAdmin.dll
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\LibCrearAdmin\obj\Debug\LibCrearAdmin.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParcialComp1-0509", "ParcialComp1-0509\ParcialComp1-0509.csproj", "{884F8A3F-37FE-4311-AED4-D95B64D9368D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCrearAdmin", "LibCrearAdmin\LibCrearAdmin.csproj", "{0CF9BCB3-0F30-4855-9A8F-7BFD535046F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{884F8A3F-37FE-4311-AED4-D95B64D9368D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F8A3F-37FE-4311-AED4-D95B64D9368D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F8A3F-37FE-4311-AED4-D95B64D9368D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F8A3F-37FE-4311-AED4-D95B64D9368D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF9BCB3-0F30-4855-9A8F-7BFD535046F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF9BCB3-0F30-4855-9A8F-7BFD535046F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF9BCB3-0F30-4855-9A8F-7BFD535046F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF9BCB3-0F30-4855-9A8F-7BFD535046F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63F40402-DB1B-4991-9E5E-DF6F38D1A0C7}
+	EndGlobalSection
+EndGlobal

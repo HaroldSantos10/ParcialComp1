@@ -1,0 +1,10 @@
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\bin\Debug\ParcialComp1-0509.exe.config
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\bin\Debug\ParcialComp1-0509.exe
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\bin\Debug\ParcialComp1-0509.pdb
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\bin\Debug\LibCrearAdmin.dll
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\bin\Debug\LibCrearAdmin.pdb
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\obj\Debug\ParcialComp1-0509.csproj.AssemblyReference.cache
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\obj\Debug\ParcialComp1-0509.csproj.CoreCompileInputs.cache
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\obj\Debug\ParcialComp1-0509.csproj.CopyComplete
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\obj\Debug\ParcialComp1-0509.exe
+C:\Users\harol\source\repos\EjerciciosPrimerComputoC#\ParcialComp1-0509\ParcialComp1-0509\obj\Debug\ParcialComp1-0509.pdb
