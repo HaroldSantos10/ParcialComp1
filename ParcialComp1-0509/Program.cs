@@ -173,8 +173,51 @@ namespace ParcialComp1_0509
                 Console.ReadKey();
             }
         }
-        //aquiiiiiiiiiiiiiiiiiii
-        
+        public static void deleteArch()
+        {
+            Console.WriteLine("ESCOJA EL ARCHIVO QUE DESEA ELIMINAR");
+            Console.WriteLine("1. Harold SMIS001621");
+            Console.WriteLine("2. Meylin SMIS032721");
+            Console.WriteLine("3. Fátima SMIS003321");
+            Console.WriteLine("4. Diego SMIS918520");
+            Console.Write("Opción: ");
+            int opt = Convert.ToInt32(Console.ReadLine());
+            switch (opt)
+            {
+                case 1:
+                    {
+                        File.Delete(getPath() + "Harold.txt");
+                        Console.WriteLine("Archivo Eliminado");
+                        break;
+                    }
+                case 2:
+                    {
+                        File.Delete(getPath() + "Meylin.txt");
+                        Console.WriteLine("Archivo Eliminado");
+                        break;
+                    }
+                case 3:
+                    {
+                        File.Delete(getPath() + "Fatima.txt");
+                        Console.WriteLine("Archivo Eliminado");
+                        break;
+                    }
+                case 4:
+                    {
+                        File.Delete(getPath() + "Diego.txt");
+                        Console.WriteLine("Archivo Eliminado");
+                        break;
+                    }
+                default:
+                    {
+                        Console.WriteLine("Opción no válida");
+                        break;
+                    }
+            }
+
+        }
+
+
 
 
     }
