@@ -216,9 +216,29 @@ namespace ParcialComp1_0509
             }
 
         }
+        private static void readFile(string arch)
+        {
 
+            String line;
+            {
 
+                StreamReader sr = new StreamReader(getPath() + arch);
 
+                line = sr.ReadLine();
+
+                while (line != null)
+                {
+
+                    Console.WriteLine(line);
+
+                    line = sr.ReadLine();
+                }
+
+                sr.Close();
+                Console.ReadLine();
+            }
+
+        }
 
     }
 }
