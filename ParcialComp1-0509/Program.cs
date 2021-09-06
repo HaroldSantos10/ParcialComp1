@@ -37,18 +37,18 @@ namespace ParcialComp1_0509
             {
                 case 1:
                     //registrar nuevo usuario
-                    //nuevoUsuario();
+                    nuevoUsuario();
                     return true;
 
                 case 2:
                     // generar los archivos
-                    //generarArchivos();
+                    generarArchivos();
 
                     return true;
 
                 case 3:
                     //borrar archivo
-                    //deleteArch();
+                    deleteArch();
                     return true;
 
                 case 4:
@@ -216,6 +216,94 @@ namespace ParcialComp1_0509
             }
 
         }
+        public static void nuevoUsuario()
+        {
+            Dictionary<object, object> nuevosUsuarios = new Dictionary<object, object>();
+            nuevosUsuarios = registrarUser();
+            Console.Clear();
+
+            Console.WriteLine("*********** Bienvenido nuevo usuario, inicie sesión ***********");
+
+            Console.Write("Usuario: ");
+            string newUser = Console.ReadLine();
+            Console.Write("Contraseña: ");
+            string newPass = Console.ReadLine();
+
+            if ((nuevosUsuarios.ContainsKey(newUser)) & (nuevosUsuarios.ContainsValue(newPass)))
+            {
+                bool mostrarNMenu = true;
+
+                while (mostrarNMenu = true)
+                {
+                    Console.Clear();
+                    Console.WriteLine();
+                    Console.WriteLine("************************************************");
+                    Console.WriteLine("*********** BIENVENIDO NUEVO USUARIO ***********");
+                    Console.WriteLine("************************************************");
+
+                    Console.WriteLine("1. Leer el archivo ");
+                    Console.WriteLine("2. salir");
+                    Console.Write("Opción: ");
+                    int opt = Convert.ToInt32(Console.ReadLine());
+                    if (opt == 1)
+                    {
+                        Console.Clear();
+                        generarArchivos();
+                        Console.WriteLine("ESCOJA EL ARCHIVO QUE DESEA LEER");
+                        Console.WriteLine("1. Harold SMIS001621");
+                        Console.WriteLine("2. Meylin SMIS032721");
+                        Console.WriteLine("3. Fátima SMIS003321");
+                        Console.WriteLine("4. Diego SMIS918520");
+                        Console.Write("Opción: ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        switch (num)
+                        {
+                            case 1:
+                                {
+                                    readFile("Harold.txt");
+                                    mostrarNMenu = true;
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    readFile("Meylin.txt");
+                                    mostrarNMenu = true;
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    readFile("Fatima.txt");
+                                    mostrarNMenu = true;
+                                    break;
+                                }
+                            case 4:
+                                {
+                                    readFile("Diego.txt");
+                                    mostrarNMenu = true;
+                                    break;
+                                }
+                            default:
+                                {
+                                    Console.WriteLine("Opción no válida");
+                                    mostrarNMenu = true;
+                                    break;
+                                }
+                        }
+                    }
+                    if (opt == 2)
+                    {
+                        Environment.Exit(0);
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Contraseña o usuario incorrectos");
+            }
+
+
+        }
+
         private static void readFile(string arch)
         {
 
